@@ -12,6 +12,6 @@ ARK is a command-line steganography tool that allows you to hide and retrieve se
 Clone the repository and install the package:
 
 ```sh
-git clone https://github.com/Mady520/ark-cli.git
-cd ark-cli
+git clone https://github.com/Mady520/ark.git
+cd ark
 pip install .
