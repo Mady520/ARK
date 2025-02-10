@@ -9,12 +9,14 @@ ARK is a command-line steganography tool that allows you to hide and retrieve se
 - Supports custom or randomly generated encryption keys.
 
 ## Installation 💻
+Using this might need some extra work like using break system packages.
 Clone the repository and install the package:
 
 ```sh
 git clone https://github.com/Mady520/ark.git
 cd ark
 pip install -r requirements.txt 
+pip install . 
 ```
 You can use python virtual enivronment if some errors are there
 
@@ -24,5 +26,6 @@ source myenv/bin/activate  # Activate the environment
 git clone https://github.com/Mady520/ark.git
 cd ark 
 pip install -r requirements.txt
+pip install .
 deactivate 
 ```
