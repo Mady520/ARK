@@ -14,4 +14,15 @@ Clone the repository and install the package:
 ```sh
 git clone https://github.com/Mady520/ark.git
 cd ark
-pip install .
+pip install -r requirements.txt 
+```
+You can use python virtual enivronment if some errors are there
+
+```sh
+python3 -m venv myenv  # Create a virtual environment
+source myenv/bin/activate  # Activate the environment
+git clone https://github.com/Mady520/ark.git
+cd ark 
+pip install -r requirements.txt
+deactivate 
+```
