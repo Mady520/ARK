@@ -15,7 +15,7 @@ setup(
     packages=find_packages(),
     install_requires=[],
     entry_points={
-        "console_scripts": ["ark=ark.main:main"],
+        "console_scripts": ["ark=ark.cli:main"],
     },
     include_package_data=True,
 )
