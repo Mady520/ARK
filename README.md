@@ -31,7 +31,7 @@ deactivate
 ```
 
 Usage : Its very simple to use 
-```
+```sh
 ark -h # for help it will show all the tools and how to use them 
-ark -s #for stego-tool
+ark -s # for stego-tool
 ```
