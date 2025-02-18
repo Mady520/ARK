@@ -29,3 +29,9 @@ pip install -r requirements.txt
 pip install .
 deactivate 
 ```
+
+Usage : Its very simple to use 
+```
+ark -h # for help it will show all the tools and how to use them 
+ark -s #for stego-tool
+```
