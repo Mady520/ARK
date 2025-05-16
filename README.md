@@ -1,12 +1,21 @@
-# ARK - small security toolkit  🔒
+# 🛡️ ARK - Cybersecurity Toolkit
 
-ARK is a command-line steganography tool that allows you to hide and retrieve secret messages within images using AES encryption.
+**ARK** is a modular, CLI-based cybersecurity toolkit built in Python. It combines utilities for steganography, and secure disk wiping.
 
+> ⚠️ This toolkit is built for ethical use only. Always ensure you have permission before running any of its features.
+
+---
 ## Features 🚀
+
+### 🖼️ Stego Tool — Image Steganography
 - Hide messages inside images securely.
 - Encrypt the pixel locations using AES encryption.
 - Retrieve hidden messages from stego images.
 - Supports custom or randomly generated encryption keys.
+
+ ### 💣 NukeDisk — Secure Disk Wiper
+-  A powerful Bash script that **permanently wipes all data** from a disk.
+-  - Ideal for securely erasing hard drives or USBs before disposal or reuse.
 
 ## Installation 💻
 Using this might need some extra work like using break system packages.
@@ -34,4 +43,14 @@ Usage : Its very simple to use
 ```sh
 ark -h # for help it will show all the tools and how to use them 
 ark -s # for stego-tool
+ark -n # for NukeDisk --> Disk Wiper
 ```
+or
+```sh
+python -m ark.cli --stego
+sudo python -m ark.cli --nuke
+```
+
+📜 License
+This project is for educational and ethical use only.
+You are responsible for how you use the tools included in ARK.
